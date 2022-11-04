@@ -1,6 +1,6 @@
 # Hi, I'm Arek. I'm currently most interested in developing my Python foundational skills and branching out from there.
 
-**What I seek from other people:**
+**👋 What I seek from other people:**
 - I'd like advice and strong criticism! If I can offer advice or criticism to you, I would love to do my best.
 - Collaboration
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/arektrusz/)
@@ -9,14 +9,14 @@
 
 <br>
 
-**Here are some of my major achievements:**
+**🥇 Here are some of my major achievements:**
 - Associate's Degree in Computer Programming
 - 3 month Data Analytics boot camp certificate
 - freeCodeCamp Scientific Coding with Python certificate of completion
 
 <br>
 
-**Minor achievements/projects:**
+**🥈 Minor achievements/projects:**
 - MapleStory equipment sim project
 - 300+ challenges completed on beginner.py Discord
 - 100 days of code (shout out Jeanine)
