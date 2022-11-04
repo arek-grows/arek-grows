@@ -29,6 +29,14 @@
 - Write Pythonic Code Like a Seasoned Developer course on talkpython.fm
   - PEP 8 conventions: code format, descriptive variable/function names
   - docstrings to better document functions, classes, methods
+  - truthiness: all 'empty' data is `False` (e.g. `0`, `None`, `[]`), rest is `True`. `__bool__` in a class determines the truthiness
+  - exit codes to relay information?
+  - flat, not nested. write gaurding clauses
+  - when using a for loop, if the looping variable isn't being used, name it `_`
+  - use more dictionaries, less lists
+  - merging dictionaries syntax: `{**dict1, **dict2, **dict3}`
+  - declaring class attributes with `__slots__` saves on time and memory bc the attributes are denied being created as dicts. this is not Pythonic and should only be considered for use when needing to save space in RAM
+  - use defaultdict library to safely access dict items. this should always be used in situations when the key your code is accessing has a chance to not exist. consider using the `get()` attribute of dict as well
 
 <br>
 
@@ -39,7 +47,7 @@
 - Decide what to dive deeper into and dive into it (currently heavily leaning into data science)
 - Relearn C++ and/or Java and have stronger foundational knowledge in the language
 - Start and finish multiple medium to large sized projects (need ideas)
-  - Update and pretty up my [portfolio](arektrusz.carrd.co/)
+  - Update and pretty up my [portfolio](https://arektrusz.carrd.co/)
 - Possibly gain experience/side cash on Upwork
 - Network
 - Get a software development job !!
