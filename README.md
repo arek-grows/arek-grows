@@ -27,16 +27,12 @@
 
 **🌱 Here is what I'm currently learning/doing:**
 - Write Pythonic Code Like a Seasoned Developer course on talkpython.fm
-  - PEP 8 conventions: code format, descriptive variable/function names
-  - docstrings to better document functions, classes, methods
-  - truthiness: all 'empty' data is `False` (e.g. `0`, `None`, `[]`), rest is `True`. `__bool__` in a class determines the truthiness
-  - exit codes to relay information?
-  - flat, not nested. write gaurding clauses
-  - when using a for loop, if the looping variable isn't being used, name it `_`
-  - use more dictionaries, less lists
-  - merging dictionaries syntax: `{**dict1, **dict2, **dict3}`
-  - declaring class attributes with `__slots__` saves on time and memory bc the attributes are denied being created as dicts. this is not Pythonic and should only be considered for use when needing to save space in RAM
-  - use defaultdict library to safely access dict items. this should always be used in situations when the key your code is accessing has a chance to not exist. consider using the `get()` attribute of dict as well
+  - to iterate through objects first define their `__iter__` method
+  - use generators for creating iterables of uknown or abritrary size
+  - *Recursive generators with `yield from`
+  - calling `list()` on a generator generates everything in that generator
+  - basic generator comprehension syntax: `(<expression> for <var> in <iterable> if <condition>)`
+  - using a generator once through comprehensions or expressions uses it up. in order to use it again you must define it again
 
 <br>
 
