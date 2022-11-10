@@ -33,6 +33,17 @@
   - calling `list()` on a generator generates everything in that generator
   - basic generator comprehension syntax: `(<expression> for <var> in <iterable> if <condition>)`
   - using a generator once through comprehensions or expressions uses it up. in order to use it again you must define it again
+  - lambdas: inline methods
+  - `try except` for error handling
+  - no method overloading in python, redefining functions replaces the past functions
+  - default values: optional parameters, can define any, some, or none of these when calling a function
+  - unpacking a dictionary (syntax `**dict`) turns it into arguments for use in a function call
+  - when wanting to default a parameter to a mutable datatype, instead default it to `None` and then handle the exceetion in the function definiton
+    - e.g. 
+    ```
+    if var is None:
+    var = []
+    ```
 
 <br>
 
