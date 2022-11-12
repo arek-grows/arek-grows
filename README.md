@@ -28,6 +28,8 @@
 **🌱 Here is what I'm currently learning/doing:**
 - Write Pythonic Code Like a Seasoned Developer course on talkpython.fm
   - write a `requirements.txt` file in your project folder, which contains the libraries your project requires, on every line in the text file. use `pip install -r` to download these libs on another system
+  - protected fields in classes are prefixed with `_`. private fields are prefixed with `__`
+  - getters and setters are not pythonic. directly access attributes with `<object>.<attribute>`
 
 <br>
 
