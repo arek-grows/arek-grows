@@ -30,6 +30,13 @@
   - write a `requirements.txt` file in your project folder, which contains the libraries your project requires, on every line in the text file. use `pip install -r` to download these libs on another system
   - protected fields in classes are prefixed with `_`. private fields are prefixed with `__`
   - getters and setters are not pythonic. directly access attributes with `<object>.<attribute>`
+  - writing for loops like you owuld in another language (e.g. C++) is not pythonic :)
+  - use `enumerate()` if you want to work with indexes in for loops
+  - don't use the else block in loops
+  - pythonic tuple unpacking syntax: `<var1>, <var2>, <var3> = <tuple of length 3>`
+  - using tuples to swap the values of two variables: `x, y = y, x`
+  - to return multiple values from a function, use tuples and tuple unpacking.
+  - PyPI - Python Package Index 
 
 <br>
 
